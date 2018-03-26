@@ -15,6 +15,12 @@
 		84FFC4662068BED9008F2210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4652068BED9008F2210 /* main.m */; };
 		84FFC4702068BED9008F2210 /* LTMessageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC46F2068BED9008F2210 /* LTMessageViewTests.m */; };
 		84FFC47B2068BED9008F2210 /* LTMessageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC47A2068BED9008F2210 /* LTMessageViewUITests.m */; };
+		84FFC48B2068C192008F2210 /* LTMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC48A2068C192008F2210 /* LTMessageView.m */; };
+		84FFC49B2068C315008F2210 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC48E2068C315008F2210 /* LICENSE */; };
+		84FFC49C2068C315008F2210 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4922068C315008F2210 /* ALView+PureLayout.m */; };
+		84FFC49D2068C315008F2210 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4942068C315008F2210 /* NSArray+PureLayout.m */; };
+		84FFC49E2068C315008F2210 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4962068C315008F2210 /* NSLayoutConstraint+PureLayout.m */; };
+		84FFC49F2068C315008F2210 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC49A2068C315008F2210 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,19 @@
 		84FFC4762068BED9008F2210 /* LTMessageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTMessageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FFC47A2068BED9008F2210 /* LTMessageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMessageViewUITests.m; sourceTree = "<group>"; };
 		84FFC47C2068BED9008F2210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FFC4892068C192008F2210 /* LTMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMessageView.h; sourceTree = "<group>"; };
+		84FFC48A2068C192008F2210 /* LTMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMessageView.m; sourceTree = "<group>"; };
+		84FFC48E2068C315008F2210 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84FFC4912068C315008F2210 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		84FFC4922068C315008F2210 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		84FFC4932068C315008F2210 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		84FFC4942068C315008F2210 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		84FFC4952068C315008F2210 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		84FFC4962068C315008F2210 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		84FFC4972068C315008F2210 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		84FFC4982068C315008F2210 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		84FFC4992068C315008F2210 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		84FFC49A2068C315008F2210 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +120,8 @@
 		84FFC4552068BED9008F2210 /* LTMessageView */ = {
 			isa = PBXGroup;
 			children = (
+				84FFC48C2068C315008F2210 /* Vendor */,
+				84FFC4882068C192008F2210 /* MessageView */,
 				84FFC4562068BED9008F2210 /* AppDelegate.h */,
 				84FFC4572068BED9008F2210 /* AppDelegate.m */,
 				84FFC4592068BED9008F2210 /* ViewController.h */,
@@ -130,6 +151,57 @@
 				84FFC47C2068BED9008F2210 /* Info.plist */,
 			);
 			path = LTMessageViewUITests;
+			sourceTree = "<group>";
+		};
+		84FFC4882068C192008F2210 /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4892068C192008F2210 /* LTMessageView.h */,
+				84FFC48A2068C192008F2210 /* LTMessageView.m */,
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		84FFC48C2068C315008F2210 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC48D2068C315008F2210 /* PureLayout */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		84FFC48D2068C315008F2210 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC48E2068C315008F2210 /* LICENSE */,
+				84FFC48F2068C315008F2210 /* PureLayout */,
+				84FFC49A2068C315008F2210 /* README.md */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		84FFC48F2068C315008F2210 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4902068C315008F2210 /* PureLayout */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		84FFC4902068C315008F2210 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4912068C315008F2210 /* ALView+PureLayout.h */,
+				84FFC4922068C315008F2210 /* ALView+PureLayout.m */,
+				84FFC4932068C315008F2210 /* NSArray+PureLayout.h */,
+				84FFC4942068C315008F2210 /* NSArray+PureLayout.m */,
+				84FFC4952068C315008F2210 /* NSLayoutConstraint+PureLayout.h */,
+				84FFC4962068C315008F2210 /* NSLayoutConstraint+PureLayout.m */,
+				84FFC4972068C315008F2210 /* PureLayout+Internal.h */,
+				84FFC4982068C315008F2210 /* PureLayout.h */,
+				84FFC4992068C315008F2210 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +312,8 @@
 			files = (
 				84FFC4632068BED9008F2210 /* LaunchScreen.storyboard in Resources */,
 				84FFC4602068BED9008F2210 /* Assets.xcassets in Resources */,
+				84FFC49F2068C315008F2210 /* README.md in Resources */,
+				84FFC49B2068C315008F2210 /* LICENSE in Resources */,
 				84FFC45E2068BED9008F2210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FFC49E2068C315008F2210 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				84FFC45B2068BED9008F2210 /* ViewController.m in Sources */,
 				84FFC4662068BED9008F2210 /* main.m in Sources */,
+				84FFC48B2068C192008F2210 /* LTMessageView.m in Sources */,
+				84FFC49C2068C315008F2210 /* ALView+PureLayout.m in Sources */,
+				84FFC49D2068C315008F2210 /* NSArray+PureLayout.m in Sources */,
 				84FFC4582068BED9008F2210 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

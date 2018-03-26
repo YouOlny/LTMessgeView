@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LTMessageView.h"
 
 @interface ViewController ()
 
@@ -16,10 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 44)];
+    [self.view addSubview:btn];
+    [btn setBackgroundColor:[UIColor redColor]];
+    [btn setTitle:@"显示信息框" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(showMessage) forControlEvents:UIControlEventTouchUpInside];
 }
 
-
+- (void)showMessage{
+    LTMessageView *messageView = [[LTMessageView alloc] initWithTitle:@"这是一个错误的信息" messageType:LTMessageViewTypeError duration:0];
+    [messageView show];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
